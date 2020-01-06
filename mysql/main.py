@@ -33,21 +33,7 @@ class Hero:
             self.exp = 0
 
 kimi = Hero("kimi","法师",500,200,50,30)
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
-kimi.hunting()
-print(kimi)
+for i in range (1,20):
+    print(kimi)
+    kimi.hunting()
 
