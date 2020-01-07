@@ -33,7 +33,9 @@ class Hero:
             self.exp = 0
 
 kimi = Hero("kimi","法师",500,200,50,30)
-for i in range (1,20):
+while True:
     print(kimi)
     kimi.hunting()
+    if kimi.level == 99:
+        break
 
